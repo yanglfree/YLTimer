@@ -16,6 +16,7 @@
 		E17F9FF323CEE0C7007E783B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E17F9FF223CEE0C7007E783B /* main.m */; };
 		E17F9FFD23CEE0C8007E783B /* YLTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E17F9FFC23CEE0C8007E783B /* YLTimerTests.m */; };
 		E17FA00823CEE0C8007E783B /* YLTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E17FA00723CEE0C8007E783B /* YLTimerUITests.m */; };
+		E17FA01723CEE198007E783B /* YLTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = E17FA01623CEE198007E783B /* YLTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		E17FA00323CEE0C8007E783B /* YLTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E17FA00723CEE0C8007E783B /* YLTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLTimerUITests.m; sourceTree = "<group>"; };
 		E17FA00923CEE0C8007E783B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E17FA01523CEE198007E783B /* YLTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLTimer.h; sourceTree = "<group>"; };
+		E17FA01623CEE198007E783B /* YLTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLTimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 		E17F9FDF23CEE0C4007E783B /* YLTimer */ = {
 			isa = PBXGroup;
 			children = (
+				E17FA01523CEE198007E783B /* YLTimer.h */,
+				E17FA01623CEE198007E783B /* YLTimer.m */,
 				E17F9FE023CEE0C4007E783B /* AppDelegate.h */,
 				E17F9FE123CEE0C4007E783B /* AppDelegate.m */,
 				E17F9FE323CEE0C4007E783B /* SceneDelegate.h */,
@@ -270,6 +275,7 @@
 				E17F9FE823CEE0C4007E783B /* ViewController.m in Sources */,
 				E17F9FE223CEE0C4007E783B /* AppDelegate.m in Sources */,
 				E17F9FF323CEE0C7007E783B /* main.m in Sources */,
+				E17FA01723CEE198007E783B /* YLTimer.m in Sources */,
 				E17F9FE523CEE0C4007E783B /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
